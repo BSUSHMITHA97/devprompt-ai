@@ -63,3 +63,14 @@ npm install
 # Install backend dependencies
 cd ../server
 npm install
+# Start PostgreSQL
+# Create .env files in both client and server folders
+
+# Run backend
+cd server
+npm run start:dev
+
+# Run frontend
+cd ../client
+npm run dev
+
